@@ -1,0 +1,8 @@
+26.05.2022
+Basic Weather info from city Katowice:
+Pressure: 1018.6hPa, Temperature: 18.8°C, Humidity: 49.5%
+
+26.05.2022
+Basic Weather info from city Katowice:
+Pressure: 1018.7hPa, Temperature: 18.8°C, Humidity: 46.2%
+
