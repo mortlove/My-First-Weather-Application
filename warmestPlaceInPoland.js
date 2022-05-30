@@ -1,15 +1,15 @@
 import fetch from 'node-fetch';
 
-const list = (async (data) => {
+const list = async (data) => {
   const elements = [...data].sort((a, b) => b.temperatura - a.temperatura);
-  console.log('\nMost popular cities list. From warmer place to the coldest. Check it out!\n');
+  console.log('\nList of most popular cities in Poland. From warmer place to the coldest. Check it out!\n');
 
   for (const element of elements) {
     const city = element.stacja;
     const temp = element.temperatura;
     console.log(`City: ${city}, Temperature: ${temp}`);
   }
-});
+};
 
 const coldestPlacePoland = async (data) => {
   const sorted = [...data].sort((a, b) => {
